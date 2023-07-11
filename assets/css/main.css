@@ -194,7 +194,7 @@ body,
 input,
 select,
 textarea {
-    color: #7c8081;
+    color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 15pt;
     font-weight: 300;
@@ -2316,6 +2316,7 @@ button.small,
 
 .wrapper.style1 {
     padding: 0;
+    color: #645862;
 }
 
 .wrapper.style2 {
@@ -2325,6 +2326,7 @@ button.small,
     background-repeat: no-repeat, no-repeat;
     background-size: 25em, 25em;
     color: #fff;
+    border-radius: 20px;
 }
 
 .wrapper.style2 input[type="button"]:hover,
@@ -2355,8 +2357,9 @@ button.small,
 }
 
 .wrapper.style3 {
-    background: #fff;
+    background: #006d5b;;
     color: inherit;
+    border-radius: 20px;
 }
 
 .wrapper.style4 {
