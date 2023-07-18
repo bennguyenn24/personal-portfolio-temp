@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
-.image__container img {
-    max-width: 300px;
-    width: 100%; /* Adjust the width as per your layout */
-    height: auto; /* Allow the height to adjust proportionally with the image */
-}
 
 html,
 body,
@@ -356,6 +351,7 @@ blockquote {
 /* Row */
 .row {
     justify-content: center;
+    margin: 20px;
 }
 
 .row {
@@ -443,6 +439,7 @@ blockquote {
 
 .row > .col-6 {
     width: 50%;
+    padding: 20px;
 }
 
 .row > .off-6 {
@@ -2357,13 +2354,12 @@ button.small,
 }
 
 .wrapper.style3 {
-    background: #006d5b;;
-    color: inherit;
+    color: black;
     border-radius: 20px;
 }
 
 .wrapper.style4 {
-    background: #fff;
+    background: #fff; 
     color: inherit;
     padding: 4em;
 }
