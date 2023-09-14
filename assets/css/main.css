@@ -2371,7 +2371,6 @@ button.small,
   background-repeat: no-repeat, no-repeat;
   background-size: 25em, 25em;
   color: #fff;
-  border-radius: 20px;
 }
 
 .wrapper.style2 input[type="button"]:hover,
@@ -3504,5 +3503,12 @@ body.index #main {
     left: 8px;
     width: 50px;
     height: 34px;
+  }
+}
+
+/* About */
+@media (min-width: 768px) {
+  .wrapper.style2 {
+    border-radius: 20px;
   }
 }
