@@ -2296,12 +2296,14 @@ button,
   font-weight: 600;
 }
 
-.code-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+@media (min-width: 768px) {
+  .code-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 }
 
 input[type="button"]:hover,
